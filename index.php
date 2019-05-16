@@ -6,32 +6,10 @@
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
 	<title>My shop</title>
-	<style type="text/css">
-
-		header{
-			border-bottom: 2px solid #ccc;
-			margin-bottom: 20px;
-		}
-
-		h2{
-			font-size: 3em;
-			color: green;
-		}
-
-		.product_specifications{
-			margin-top: 20px;
-		}
-
-		.price{
-			font-size: 2em;
-		}
-
-		.price span{
-			color: #cc0000;
-		}
-
-	</style>
 </head>
 <body>
 	<header>
@@ -60,6 +38,14 @@
 				</div>
 				<div class="price">
 					Цена: <span>18$</span>
+				</div>
+				<div id="button_buy_now">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="86CP2PCK67WBC">
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+					</form>
 				</div>
 			</div>
 		</div>

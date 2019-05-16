@@ -1,0 +1,21 @@
+header{
+	border-bottom: 2px solid #ccc;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 3em;
+	color: green;
+}
+
+.product_specifications{
+	margin-top: 20px;
+}
+
+.price{
+	font-size: 2em;
+}
+
+.price span{
+	color: #cc0000;
+}
